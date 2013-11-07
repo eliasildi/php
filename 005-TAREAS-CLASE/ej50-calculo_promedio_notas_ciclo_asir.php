@@ -7,14 +7,12 @@
 </head>
 <body>
 <?php
-
+// limpiar formulario
 $contenido=$_POST;
-
 function limpiarForm(){
 	unset($contenido);
 }
-
-
+//
 if (isset($_POST['boton1'])) {
 $boton1 = $_POST['boton1'];
 $n1 = $_POST['nota1'];
@@ -44,6 +42,11 @@ $sumatodas=$n1+$n2+$n3+$n4+$n5+$n6+$n7+$n8+$n9+$n10+$n11+$n12+$n13;
 // PROBLEMAS QUE AUN HAY:
 // si escribo conv y le doy a calcular, la media no da bien, hay que volver a darle a calcular
 // el reset solo borra al principio
+//
+//abajo en los values if (isset($_POST['nota1'])) echo $_POST['nota1']; else echo 0; si uso este tengo que
+// cambiar arriba los _post
+//o con las variables
+//if (isset($n2)) echo $n2; else echo 0;
 //
 if (($n1=='CONV') or ($n1=='conv')) {$n1=5;} if (($n2=='CONV') or  ($n2=='conv')) {$n2=5;} if (($n3=='CONV') or  ($n3=='conv')) {$n3=5;}
 if (($n4=='CONV') or  ($n4=='conv')) {$n4=5;} if (($n5=='CONV') or  ($n5=='conv')) {$n5=5;} if (($n6=='CONV') or  ($n6=='conv')) {$n6=5;}

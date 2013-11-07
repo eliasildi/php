@@ -58,7 +58,7 @@
 			print " ".$numerojugado;
 		print "<br />";
 	}
-
+// esta es la que hay que hacer
 	function RevisaPrimitiva($apuesta)
 	{
 		$contdc0 = 0;
