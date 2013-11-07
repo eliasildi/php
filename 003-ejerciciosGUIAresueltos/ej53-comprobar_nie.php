@@ -14,7 +14,7 @@
 	$letranif="TRWAGMYFPDXBNJZSQVHLCKE"; // una manera más sencilla
 
 	if ( isset($_POST["enviado"]) )  {
-		$nifalm = strtoupper( $_POST["nie"] );
+		$nifalm = strtoupper( $_POST["nie"] ); // strtoupper pasa a mayusculas
 		if ( strlen( $nifalm ) == 9 ) {
 			if ( ($nifalm[0] == 'X') OR ($nifalm[0] == 'Y') OR ($nifalm[0] == 'Z') ) {
 				switch ($nifalm[0]) {

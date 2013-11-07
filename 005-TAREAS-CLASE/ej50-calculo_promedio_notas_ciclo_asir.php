@@ -28,7 +28,9 @@ $n10 = $_POST['nota10'];
 $n11 = $_POST['nota11'];
 $n12 = $_POST['nota12'];
 $n13 = $_POST['nota13'];
-$fct = $_POST['nota14'];
+$fct = strtoupper( $_POST["nota14"] );
+
+// 
 
 if (($n1=='CONV') or ($n1=='conv')) {$n1=5;} if (($n2=='CONV') or  ($n2=='conv')) {$n2=5;} if (($n3=='CONV') or  ($n3=='conv')) {$n3=5;}
 if (($n4=='CONV') or  ($n4=='conv')) {$n4=5;} if (($n5=='CONV') or  ($n5=='conv')) {$n5=5;} if (($n6=='CONV') or  ($n6=='conv')) {$n6=5;}
@@ -57,12 +59,12 @@ $sumatodas=$n1+$n2+$n3+$n4+$n5+$n6+$n7+$n8+$n9+$n10+$n11+$n12+$n13;
 //
 
 
-if (($fct == 'APTO') or ($fct == 'apto')) {
+if (($fct == 'APTO') or ($fct == 'APTA')) {
 	$media = ($mediaprimero+$mediasegundo)/2;
 	$titula='SI';
 	}
 
-if (($fct=='NO APTO') or ($fct=='no apto')) {
+if (($fct=='NO APTO') or ($fct=='NO APTA')) {
 	$media=0;
 	$titula='NO';
 	}
