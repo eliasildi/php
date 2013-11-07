@@ -68,13 +68,12 @@
 	else
 { ?>
 	<FORM ACTION="ej54-verifica_cuenta_bancaria.php" METHOD=POST>
-		Entidad: <INPUT NAME="entidad" size="4" MAXLENGTH="4" TYPE="TEXT"
-			VALUE="" /> Oficina: <INPUT NAME="oficina" size="4" MAXLENGTH="4"
-			TYPE="TEXT" VALUE="" /> DC: <INPUT NAME="dc" size="2" MAXLENGTH="2"
-			TYPE="TEXT" VALUE="" /> Cuenta: <INPUT NAME="cuenta" size="10"
-			MAXLENGTH="10" TYPE="TEXT" VALUE="" /><br /> <br /> <input
-			type="hidden" name="enviado" value="1" /> <INPUT NAME="boton"
-			TYPE="SUBMIT" VALUE="Enviar">
+		Entidad: 	<INPUT NAME="entidad" size="4" MAXLENGTH="4" TYPE="TEXT" VALUE="" />
+		Oficina:	<INPUT NAME="oficina" size="4" MAXLENGTH="4" TYPE="TEXT" VALUE="" />
+		DC: 		<INPUT NAME="dc" size="2" MAXLENGTH="2" TYPE="TEXT" VALUE="" />
+		Cuenta:		<INPUT NAME="cuenta" size="10" MAXLENGTH="10" TYPE="TEXT" VALUE="" />
+		<br /> <br />
+		<input type="hidden" name="enviado" value="1" /> <INPUT NAME="boton" TYPE="SUBMIT" VALUE="Enviar">
 	</FORM>
 	<?php	
 }

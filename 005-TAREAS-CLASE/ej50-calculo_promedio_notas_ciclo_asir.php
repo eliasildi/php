@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-// limpiar formulario
+// limpiar formulario probe sin esto y va bien si pongo submit en borrar
 $contenido=$_POST;
 function limpiarForm(){
 	unset($contenido);
@@ -15,6 +15,7 @@ function limpiarForm(){
 //
 if (isset($_POST['boton1'])) {
 $boton1 = $_POST['boton1'];
+$nombre = $_POST['alumno'];
 $n1 = $_POST['nota1'];
 $n2 = $_POST['nota2'];
 $n3 = $_POST['nota3'];
@@ -80,7 +81,7 @@ if (($mediaprimero<5) OR ($mediasegundo<5)) {
 		<table border="1">
 			<tr>
 				<td>Nombre del Alumno</td>
-				<td colspan="2"><INPUT NAME="alumno" size="50" MAXLENGTH="50" TYPE="TEXT" VALUE="" /><br />
+				<td colspan="2"><INPUT NAME="alumno" size="50" MAXLENGTH="50" TYPE="TEXT" VALUE="<?php if (isset($nombre)) echo $nombre; else echo ""; ?>" /><br />
 				</td>
 			</tr>
 			<tr>
