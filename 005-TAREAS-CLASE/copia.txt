@@ -1,0 +1,45 @@
+Éste es el contenido del archivo01.txt
+
+Se debe tener en cuenta que los archivos abiertos con el protocolo HTTP
+sólo pueden ser procesados en modo lectura. En el caso de archivos
+abiertos con el protocolo FTP existe otra limitación, se abren en modo
+lectura o en modo escritura, pero no en ambos modos simult‡neamente.
+Cuando se trabaja con PHP se debe tener siempre presente que el código
+se puede procesar en diversas plataformas y eso a veces implica ciertas
+precauciones adicionales. Por ejemplo, en las plataformas Windows
+debemos utilizar barras invertidas (\) para las rutas de acceso al
+sistema de archivo local y barras normales para la ruta de acceso a
+archivos remotos (http://). Añadamos esta línea por el final...Éste es el contenido del archivo01.txt
+
+Se debe tener en cuenta que los archivos abiertos con el protocolo HTTP
+sólo pueden ser procesados en modo lectura. En el caso de archivos
+abiertos con el protocolo FTP existe otra limitación, se abren en modo
+lectura o en modo escritura, pero no en ambos modos simult‡neamente.
+Cuando se trabaja con PHP se debe tener siempre presente que el código
+se puede procesar en diversas plataformas y eso a veces implica ciertas
+precauciones adicionales. Por ejemplo, en las plataformas Windows
+debemos utilizar barras invertidas (\) para las rutas de acceso al
+sistema de archivo local y barras normales para la ruta de acceso a
+archivos remotos (http://). Añadamos esta línea por el final...Éste es el contenido del archivo01.txt
+
+Se debe tener en cuenta que los archivos abiertos con el protocolo HTTP
+sólo pueden ser procesados en modo lectura. En el caso de archivos
+abiertos con el protocolo FTP existe otra limitación, se abren en modo
+lectura o en modo escritura, pero no en ambos modos simult‡neamente.
+Cuando se trabaja con PHP se debe tener siempre presente que el código
+se puede procesar en diversas plataformas y eso a veces implica ciertas
+precauciones adicionales. Por ejemplo, en las plataformas Windows
+debemos utilizar barras invertidas (\) para las rutas de acceso al
+sistema de archivo local y barras normales para la ruta de acceso a
+archivos remotos (http://). Añadamos esta línea por el final...Éste es el contenido del archivo01.txt
+
+Se debe tener en cuenta que los archivos abiertos con el protocolo HTTP
+sólo pueden ser procesados en modo lectura. En el caso de archivos
+abiertos con el protocolo FTP existe otra limitación, se abren en modo
+lectura o en modo escritura, pero no en ambos modos simult‡neamente.
+Cuando se trabaja con PHP se debe tener siempre presente que el código
+se puede procesar en diversas plataformas y eso a veces implica ciertas
+precauciones adicionales. Por ejemplo, en las plataformas Windows
+debemos utilizar barras invertidas (\) para las rutas de acceso al
+sistema de archivo local y barras normales para la ruta de acceso a
+archivos remotos (http://). Añadamos esta línea por el final...

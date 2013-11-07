@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta http-equiv="content-type" content="text/html" />
+<title>Fornularios en XHTML</title>
+</HEAD>
+<BODY>
+
+	<p>Para mostrar los distintas maneras de poner la etiqueta label en
+		un control</p>
+
+	<FORM ACTION="procesar.php" METHOD=GET>
+
+		La etiqueta input separada de la etiqueta label<br />
+		<br /> <label for="nombrecompleto2">Nombre Completo</label><br /> <input
+			id="nombrecompleto2" name="nombrecompleto" type="text" /> <br />
+		<br /> La etiqueta input dentro de la etiqueta label <br />
+		<br /> <label>Nombre Completo : <input name="nombrecompleto"
+			type="text" /></label><br /> <br /> Etiqueta input sin etiqueta label<br />
+		<br /> NIF: <input id="nif" name="nif" type="text" /> <br /> <br />
+
+		<input type="submit" value="Enviar Datos" />
+
+	</FORM>
+
+	<p>Mostrando el uso de la etiqueta label.</p>
+
+</BODY>
+</HTML>

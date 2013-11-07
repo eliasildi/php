@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta http-equiv="content-type" content="text/html" />
+<title>Fornularios en XHTML</title>
+</HEAD>
+<BODY>
+
+	<FORM ACTION="procesar.php" METHOD=GET>
+
+		Entrada de tipo radio<br />
+		<br />
+		<input type="radio" name="genero" id="masculino"
+			value="masculino" />Masculino<br />
+		<input type="radio"	name="genero" id="femenino"
+			value="femenino" checked="checked" />Femenino<br />
+		<br />
+		<!--   Se utiliza checked="checked" para que la opción aparezca seleccionada -->
+		<!--   El dato se asigna en el atributo value. -->
+
+		<input type="submit" value="Enviar Datos" /> <input type="reset"
+			value="Vaciar Campos" />
+	</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,1 @@
+este es un fichero de datos para trabajar como ejemplo en los programas de php.

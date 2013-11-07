@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd HTML 4.01 transitional//EN" "http://www.w3.org/tr/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Formulario en tabla</title>
+</head>
+<body>
+
+<form method=post action="">
+Elias Gonzalez Perera <br><br>
+<table border=0>
+	<tr><td><b>Datos Personales</b></td></tr>
+	<tr>
+		<td>DNI: </td><td><input type=text name="apellido"></td>
+	</tr>
+
+	<tr>
+		<td>Nombre: </td><td><input type=text name="apellido"></td>
+	</tr>
+
+	<tr>
+		<td>Apellidos: </td><td><input type=text name="apellido"></td>
+	</tr>
+
+	<tr>
+		<td>Sexo: </td><td><select name="sexo">
+			<option value="">
+			<option value="hombre">hombre</option>
+			<option value="mujer">mujer
+		</td>
+	</tr>
+	<tr><td><b>Datos Académicos</b></td></tr>
+
+	<tr>
+		<td>Ciclo a estudiar:
+			<select name="ciclo">
+				<option value="">
+				<option value="ASIR">ASIR</option>
+				<option value="DAW">DAW</select>
+		
+		<td>Curso:
+			
+				<input type="radio" name="curso" value="2">1º
+				<input type="radio" name="curso" value="1">2º
+			</td>
+	</tr>
+ 
+	<tr>
+		<td>Forma de acceso:</td>
+		<td>
+			<input type="radio" name="curso" value="2">Acceso directo
+			<input type="radio" name="curso" value="1">Prueba de acceso
+		</td>
+	</tr>
+
+<tr>
+	<td colspan=2>
+	<input type="submit" value="Insertar"> <input type="submit" value="Modificar">
+	<input type="Reset" value="Borrar"> <input type="Reset" value="Limpiar">
+	</td>
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>
