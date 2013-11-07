@@ -62,7 +62,7 @@
 			print "<br/>";
 		}
 	}
-
+	// ESTA DE AQUI DEBAJO ES LA QUE HABIA QUE HACER
 	function RevisaCuadrado($cuadrado)
 	{
 		if ( (($cuadrado[0][0] + $cuadrado[0][1] + $cuadrado[0][2]) == 15) and // fila 0

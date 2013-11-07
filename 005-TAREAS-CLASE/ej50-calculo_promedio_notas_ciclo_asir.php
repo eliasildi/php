@@ -7,6 +7,14 @@
 </head>
 <body>
 <?php
+
+$contenido=$_POST;
+
+function limpiarForm(){
+	unset($contenido);
+}
+
+
 if (isset($_POST['boton1'])) {
 $boton1 = $_POST['boton1'];
 $n1 = $_POST['nota1'];
@@ -33,8 +41,10 @@ $sumatodas=$n1+$n2+$n3+$n4+$n5+$n6+$n7+$n8+$n9+$n10+$n11+$n12+$n13;
 //	$titula='NO';
 //	$media=0;
 //	}
-
-// mayus
+// PROBLEMAS QUE AUN HAY:
+// si escribo conv y le doy a calcular, la media no da bien, hay que volver a darle a calcular
+// el reset solo borra al principio
+//
 if (($n1=='CONV') or ($n1=='conv')) {$n1=5;} if (($n2=='CONV') or  ($n2=='conv')) {$n2=5;} if (($n3=='CONV') or  ($n3=='conv')) {$n3=5;}
 if (($n4=='CONV') or  ($n4=='conv')) {$n4=5;} if (($n5=='CONV') or  ($n5=='conv')) {$n5=5;} if (($n6=='CONV') or  ($n6=='conv')) {$n6=5;}
 if (($n7=='CONV') or  ($n7=='conv')) {$n7=5;} if (($n8=='CONV') or  ($n8=='conv')) {$n8=5;} if (($n9=='CONV') or  ($n9=='conv')) {$n9=5;}
@@ -123,7 +133,10 @@ if (($mediaprimero<5) OR ($mediasegundo<5)) {
 			<tr align="center">
 				<td colspan="3">
 					<INPUT NAME="boton1" TYPE="SUBMIT" VALUE="Calcular">
-					<INPUT NAME="boton2" TYPE="RESET" VALUE="Borrar">
+		<! NO BORRA <INPUT NAME="boton2" TYPE="RESET" VALUE="Borrar">
+					<input type="submit" name="Limpiar" id="Limpiar" value="Borrar"/>
+					
+					
 					<br />
 				</td>
 			</tr>
