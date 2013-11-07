@@ -56,9 +56,10 @@
 		print "La apuesta generada es :";
 		foreach ($apuesta as $numerojugado)
 			print " ".$numerojugado;
+		
 		print "<br />";
 	}
-// esta es la que hay que hacer
+// esta es la que hay que hacer *******************
 	function RevisaPrimitiva($apuesta)
 	{
 		$contdc0 = 0;
@@ -93,6 +94,8 @@
 	while (TRUE) {
 	$apuestarealizada = GeneraPrimitiva();
 	if (! RevisaPrimitiva($apuestarealizada)){
+		ImprimirPrimitiva($apuestarealizada);
+		ImprimirPrimitiva($apuestarealizada);
 		ImprimirPrimitiva($apuestarealizada);
 		break;
 	}
