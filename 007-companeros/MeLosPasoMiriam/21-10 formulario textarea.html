@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta http-equiv="content-type" content="text/html" />
+<title>Fornularios en XHTML</title>
+</HEAD>
+<BODY>
+
+	<p>Uso de la etiqueta textarea</p>
+
+	<FORM ACTION="procesar.php" METHOD=GET>
+
+		<fieldset>
+			<legend>Mensaje de correo</legend>
+			<table>
+				<tr>
+					<td>De:</td>
+					<td><input type="email" name="de"></td>
+				</tr>
+				<tr>
+					<td>Para:</td>
+					<td><input type="email" name="para"></td>
+				</tr>
+				<tr>
+					<td>CC:</td>
+					<td><input type="email" name="cc"></td>
+				</tr>
+				<tr>
+					<td>Archivos adjuntos:</td>
+					<td><input type="file" name="archivo"></td>
+					<td><select>
+							<option value="aviso">Aviso de recepción
+							<option value="normal" selected>Normal
+					</select></td>
+				</tr>
+				<tr>
+					<td>Asunto:</td>
+					<td><input type="text" name="asunto"></td>
+				</tr>
+				<tr>
+					<td>Mensaje:</td>
+					<td><textarea name="texto" cols=30 rows=5></textarea></td>
+				</tr>
+				<tr>
+					<td>Fecha y hora de envío:</td>
+					<td><input type="datetime" name="fecha"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="enviar"></td>
+				</tr>
+
+			</table>
+		</fieldset>
+
+	</FORM>
+
+	<p>Mostrando el uso de la etiqueta textarea.</p>
+
+</BODY>
+</HTML>
