@@ -57,9 +57,9 @@ echo "El valor de x despues de ejecutar la funci&oacute;n A2 es: $x<br />";
 // de una función, y se inicializa únicamente con la primera llamada
 // de la función.
 
-// Para declarar una variable estática se usa la palagra static.
+// Para declarar una variable estática se usa la palabra static.
 
-function contador()
+function contador()  // ESTO PUEDE CAER EN EXAMEN
 {
 	static $cont = 0;
 	// $cont = 0;
@@ -68,7 +68,7 @@ function contador()
 
 echo "<br />Mostrando la variable estatica<br /><br />";
 
-for ($i = 1; $i <= 5; $i++)
+for ($i = 1; $i <= 15; $i++)
 	print contador()."<br />";
 
 ?>
