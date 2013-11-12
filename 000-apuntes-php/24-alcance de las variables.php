@@ -17,7 +17,7 @@ $x = 3;
 
 function A1()
 {
-	$x += 20;
+	$x += 20; // es como escribvir $x = $x + 20   // // el $x vale 0 no coge el valor 3 de fuera
 	echo "El valor de x ejecutando la funci&oacute;n A1 es: $x<br />";
 }
 echo "Mostrando que la variable externa no se puede acceder desde el interior de la función<br /><br />";
