@@ -46,7 +46,9 @@ $error = "ERROR IP";
 		</table>
 		<table align='center' >
 			<tr>
-			<td><INPUT NAME="abinario" TYPE="SUBMIT" VALUE="A BINARIO (101010)"></td> <td><INPUT NAME="adecimal" TYPE="SUBMIT" VALUE="A DECIMAL (1,2,3,4,...)"></td>
+			<td> <INPUT NAME="abinario" TYPE="SUBMIT" VALUE="A BINARIO (101010)"> </td>
+			<td> <input NAME="boton2" TYPE="SUBMIT" VALUE="Borrar"/> </td>
+			<td> <INPUT NAME="adecimal" TYPE="SUBMIT" VALUE="A DECIMAL (1,2,3,4,...)"> </td>
 			</tr>
 		</table>
 	</FORM>
