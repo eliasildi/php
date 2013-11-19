@@ -1,0 +1,13 @@
+Le adjunto pdf con el enunciado de la practica 1, es un conjunto de las cosas que se han explicado en clase.
+
+La fecha de entrega es al mismo tiempo que la practica 2,
+
+La fecha es el 11 de diciembre un día antes del segundo examen.
+
+Una cosa que deben tener en cuenta para la practica y evitarse dolores de cabeza innecesarios.
+
+Cuando se le hacemos clic al botón generar para que se genere la apuesta aleatoria, los botones de los números que pertenecen a la apuesta deben estar "HABILITADOS" si no los habilitan, cuando se haga clic en el botón Validar para que los escriba en el fichero, esos botones no pasarán si se encuentran deshabilitados.
+
+Por lo tanto en las apuestas aleatorias los botones de los números elegidos deben estar habilitados
+
+En breve el enunciado de la practica 2.
