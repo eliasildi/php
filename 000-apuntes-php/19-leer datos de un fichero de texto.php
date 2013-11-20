@@ -132,7 +132,7 @@ echo "<br /><br />Fin de la ejecución<br />";
 // 	ESCRITURA DE DATOS EN UN FICHERO
 
 // 	Función fwrite( descriptor_fichero, cadena_escribir [,nro_caracteres] )
-// 	Función fputs( descriptor_fichero, cadena_escribir [,nro_caracteres] )
+// 	Función fputs( descriptor_fichero, cadena_escribir [,nro_caracteres] )   ESTE PONE UN INTRO AL FINAL ************************************
 
 // 	Estas dos funciones tienen el mismo funcionamiento y permiten escribir la cadena_escribir
 // 	en el archivo cuyo descriptor se pasa como parámetro. Si se utiliza el parámetro
