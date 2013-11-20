@@ -1,0 +1,5 @@
+IBM;www.ibm.es
+Microsoft;www.microsoft.com
+El País;www.elpais.com
+Diario As;www.as.com
+Distrowatch;www.distrowatch.com

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Formularios!</title>
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Contacto</title>
+<style type="text/css">
+li {
+	list-style: none;
+	margin-bottom: 10px
+}
+</style>
+</head>
+<body>
+	<form action="21-procesar form post - completo.php" method="post">
+		<fieldset>
+			<legend>Contact</legend>
+			<ul>
+				<li><label for="nombrecompleto">Nombre Completo*</label><br />
+					<input id="nombrecompleto" name="nombrecompleto" type="text" /></li>
+
+				<li><label for="direccion">Direcci&oacute;n* </label><br /> <textarea
+						id="direccion" name="direccion" rows="3" cols="30"></textarea></li>
+
+				<li>
+					<fieldset>
+						<legend>Cual es tu sexo?</legend>
+						<input type="radio" id="sexom" name="sexo" value="f"
+							checked="checked" /> <label for="sexom"> Mujer</label> <input
+							type="radio" id="sexoh" name="sexo" value="m" /> <label
+							for="sexoh"> Hombre</label>
+					</fieldset>
+				</li>
+
+				<li><input type="checkbox" id="imagesonly" name="imagesonly"
+					value="yes" /> <label for="imagesonly"> Haz clic
+						aqu&iacute; si s&oacute;lo quieres im&aacute;genes.</label></li>
+
+				<li>
+					<fieldset>
+						<legend>Donde prefieres vivir?</legend>
+						<input type="checkbox" id="arearural" name="tiposareas[]"
+							value="rural" /> <label for="arearural"> Rural</label> <input
+							type="checkbox" id="areasuburbio" name="tiposareas[]"
+							value="suburbio" /> <label for="areasuburbio"> Suburbio</label> <input
+							type="checkbox" id="areaciudad" name="tiposareas[]"
+							value="ciudad" /> <label for="areaciudad"> Ciudad</label>
+					</fieldset>
+				</li>
+
+				<li><label for="nivel">Nivel</label> <select id="nivel"
+					name="nivel">
+						<option value="">- Selecciona un nivel -</option>
+						<option value="oro">Oro</option>
+						<option value="plata">Plata</option>
+						<option value="bronce">Bronce</option>
+				</select></li>
+
+				<li><label for="intereses">Qu&eacute; te gusta?</label> <select
+					id="intereses" name="intereses[]" multiple="multiple" size="3">
+						<option value="0">Leer</option>
+						<option value="1">Navegar</option>
+						<option value="2">Oir M&uacute;sica</option>
+				</select></li>
+
+			</ul>
+
+			<input type="submit" value="Enviar" name="contactForm" /> <input
+				type="reset" value="Limpiar" />
+
+			<div>
+				<input type="hidden" name="id" value="12345" />
+			</div>
+
+		</fieldset>
+	</form>
+</body>
+</html>

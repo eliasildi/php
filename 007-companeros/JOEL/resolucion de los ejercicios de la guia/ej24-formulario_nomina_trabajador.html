@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Programaci&oacute;n en PHP</title>
+</head>
+<body>
+	<p>Datos para la n&oacute;mina de un trabajador</p>
+
+	<!-- formulario para la recogida de datos para la nómina -->
+
+	<FORM ACTION="ej24-calculo_nomina_trabajador.php" METHOD=POST>
+		Nombre y Apellido del Trabajador: <INPUT NAME="nombre" size="50"
+			MAXLENGTH="50" TYPE="TEXT" VALUE="" /><br />
+		<br /> Nro de horas trabajadas: <INPUT NAME="nrohoras" size="5"
+			MAXLENGTH="5" TYPE="TEXT" VALUE="" /><br />
+		<br /> Importe a pagar por hora trabajada: <INPUT NAME="costeporhora"
+			size="5" MAXLENGTH="5" TYPE="TEXT" VALUE="" /><br />
+		<br /> % de cotizaci&oacute;n: <INPUT NAME="cotizacion" size="3"
+			MAXLENGTH="3" TYPE="TEXT" VALUE="" /><br />
+		<br /> <INPUT NAME="boton" TYPE="SUBMIT" VALUE="Calcular"> <INPUT
+			NAME="borrador" TYPE="RESET" VALUE="Vaciar Formulario">
+	</FORM>
+	<?php	
+}
+?>
+</body>
+</html>

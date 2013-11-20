@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta http-equiv="content-type" content="text/html" />
+<title>Fornularios en XHTML</title>
+</HEAD>
+<BODY>
+
+	<FORM ACTION="procesar.php" METHOD=GET>
+
+		Entrada de tipo checkbox<br />
+		<br /> <input type="checkbox" name="Informatica" value="1" />Libros
+		de informática<br /> <input type="checkbox" name="Novelas"
+			checked="checked" />Novelas <br /> <input type="checkbox"
+			name="Diccionarios" checked="checked" />Diccionarios <br /> <br />
+		<!--   Se utiliza checked="checked" para que la opción aparezca seleccionada -->
+		<!--   El dato se asigna en el atributo value. -->
+
+		<input type="submit" value="Enviar Datos" />
+	</FORM>
+	<br />Seleccione sus intereses literarios y al hacer clic en el botón
+	<b>Enviar datos</b>,
+	<br /> el formulario se envía al servidor a la página actualizar.php
+	para su proceso.
+</BODY>
+</HTML>
