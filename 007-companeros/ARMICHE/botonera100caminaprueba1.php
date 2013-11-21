@@ -83,7 +83,7 @@
 		}
 	}
 	?>
-	<form ACTION="prueba1.php" METHOD="POST">
+	<form ACTION="botonera100caminaprueba1.php" METHOD="POST">
 	<table>
 		<tr>
 			<td>
