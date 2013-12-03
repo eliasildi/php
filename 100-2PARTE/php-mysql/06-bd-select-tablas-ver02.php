@@ -12,7 +12,7 @@
 
 	// se establece la conexión con el servidor localhost
 
-	$conexion = mysqli_connect("localhost","root","h3ct0rUch@") or
+	$conexion = mysqli_connect("localhost","root","alejo") or
 	die ("No se puede establecer la conexi&oacute;n con la BD<br />. mysqli_error($conexion)");
 
 	// seleccionar una base de datos para ello se usa la función

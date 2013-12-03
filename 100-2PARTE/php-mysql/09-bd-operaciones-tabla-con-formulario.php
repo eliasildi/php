@@ -14,7 +14,7 @@
 	{
 		// se establece la conexión con el servidor localhost
 
-		$conexion = mysqli_connect("localhost","root","Murci3l@g0SQL") or
+		$conexion = mysqli_connect("localhost","root","alejo") or
 		die ("No se puede establecer la conexi&oacute;n con la BD<br />. mysqli_error($conexion)");
 
 		// seleccionar la base de datos Clientes
@@ -32,12 +32,12 @@
 
 			if ( $_POST['clave'] != "" )  {
 				$sql = "Insert Into Cliente (AApellidos, ANombre, ADomicilio, ATelefono, AEmail, AClave) Values ('";
-				$sql.= mysql_real_escape_string($_POST['apellidos']) . "', '";
-				$sql.= mysql_real_escape_string($_POST['nombre']) . "', '";
-				$sql.= mysql_real_escape_string($_POST['domicilio']) . "', '";
-				$sql.= mysql_real_escape_string($_POST['telefono']) . "', '";
-				$sql.= mysql_real_escape_string($_POST['email']) . "', '";
-				$sql.= mysql_real_escape_string($_POST['clave']) . "');";
+				$sql.= $_POST['apellidos'] . "', '";
+				$sql.= $_POST['nombre'] . "', '";
+				$sql.= $_POST['domicilio'] . "', '";
+				$sql.= $_POST['telefono'] . "', '";
+				$sql.= $_POST['email'] . "', '";
+				$sql.= $_POST['clave'] . "');";
 
 				// Ejecución de la consulta para insertar un registro
 

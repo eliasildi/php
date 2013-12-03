@@ -12,7 +12,7 @@
 
 	// se establece la conexión con el servidor localhost
 
-	$conexion = mysqli_connect("localhost","root","Murci3l@g0SQL") or
+	$conexion = mysqli_connect("localhost","root","alejo") or
 	die ("No se puede establecer la conexi&oacute;n con la BD<br />. mysqli_error($conexion)");
 
 	// seleccionar una base de datos para ello se usa la función
@@ -34,12 +34,12 @@
 
 	$sql = "Insert Into Cliente (AApellidos, ANombre, ADomicilio, ATelefono, AEmail, AClave)
 			Values ('";
-	$sql.= mysql_real_escape_string('Fuentes') . "', '";
-	$sql.= mysql_real_escape_string('Juan') . "', '";
-	$sql.= mysql_real_escape_string('C/Diagonal 222') . "', '";
-	$sql.= mysql_real_escape_string('934556777') . "', '";
-	$sql.= mysql_real_escape_string('juan99@hotmail.es') . "', '";
-	$sql.= mysql_real_escape_string('100.02') . "');";
+	$sql.= 'Fuentes' . "', '";
+	$sql.= 'Juan' . "', '";
+	$sql.= 'C/Diagonal 222' . "', '";
+	$sql.= '934556777' . "', '";
+	$sql.= 'juan99@hotmail.es' . "', '";
+	$sql.= '100.02' . "');";
 
 	// La función mysql_real_escape_string()
 	//
@@ -65,12 +65,12 @@
 
 	$sql = "Insert Into Cliente (AApellidos, ANombre, ADomicilio, ATelefono, AEmail, AClave)
 			Values ('";
-	$sql.= mysql_real_escape_string("Gonz&aacute;lez") . "', '";
-	$sql.= mysql_real_escape_string('Pedro') . "', '";
-	$sql.= mysql_real_escape_string('C/La Carrera 15') . "', '";
-	$sql.= mysql_real_escape_string('928762987') . "', '";
-	$sql.= mysql_real_escape_string('pedroglez@gmail.com') . "', '";
-	$sql.= mysql_real_escape_string('101.03') . "');";
+	$sql.= "Gonz&aacute;lez" . "', '";
+	$sql.= 'Pedro' . "', '";
+	$sql.= 'C/La Carrera 15' . "', '";
+	$sql.= '928762987' . "', '";
+	$sql.= 'pedroglez@gmail.com' . "', '";
+	$sql.= '101.03' . "');";
 
 	$result = mysqli_query($conexion, $sql) or
 	die ("Error de aplicaci&oacute;n: Acceso a base de datos inv&aacute;lido<br />".  mysqli_error($conexion));

@@ -22,7 +22,7 @@
 	// parámatro 2 = datos de los usuarios
 	// parámatro 3 = datos de la contraseña
 
-	$conexion = mysqli_connect("localhost","root","Murci3l@g0SQL") or
+	$conexion = mysqli_connect("localhost","root","alejo") or
 	die ("No se puede establecer la conexi&oacute;n con la BD<br />");
 
 	// se crea la base de datos Clientes
