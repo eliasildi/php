@@ -7,7 +7,7 @@
 
 	if ( isset( $_POST['bt_insertar'] ) )
 	{
-	 $conexion = mysqli_connect("localhost","root","alejo") or
+	 $conexion = mysqli_connect("localhost","root","elias") or
 	 die ("No se puede establecer la conexi&oacute;n con la BD<br />. mysqli_error($conexion)");
 
 	 $db = mysqli_select_db($conexion, 'software');

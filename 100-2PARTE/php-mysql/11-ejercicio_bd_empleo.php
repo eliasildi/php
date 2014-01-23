@@ -13,7 +13,7 @@
 
 	// Conexión al servidor
 
-	$conexion = @mysqli_connect("localhost", "root", "Murci3l@g0SQL") or
+	$conexion = @mysqli_connect("localhost", "root", "elias") or
 	die ("Error... No se puede establecer la conexi&oacute;n con el Servidor de BD<br />");
 
 	echo "OK...Se ha podido conectar sin problemas con el servidor<br />";

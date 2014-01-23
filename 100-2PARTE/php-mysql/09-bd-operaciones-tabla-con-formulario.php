@@ -14,7 +14,7 @@
 	{
 		// se establece la conexión con el servidor localhost
 
-		$conexion = mysqli_connect("localhost","root","alejo") or
+		$conexion = mysqli_connect("localhost","root","elias") or
 		die ("No se puede establecer la conexi&oacute;n con la BD<br />. mysqli_error($conexion)");
 
 		// seleccionar la base de datos Clientes
